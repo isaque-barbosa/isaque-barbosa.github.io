@@ -2,10 +2,10 @@ name: publish-sponsors
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   generate-sponsors:
     runs-on: ubuntu-latest
@@ -23,5 +23,5 @@ jobs:
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: master
+          branch: main
           folder: '.'
