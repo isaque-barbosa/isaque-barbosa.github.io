@@ -15,7 +15,7 @@ jobs:
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.19.2
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@v4
