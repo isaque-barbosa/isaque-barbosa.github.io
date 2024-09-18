@@ -70,6 +70,20 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 
+[languages.zh]
+title = "Isaque Barbosa"
+description = "Abridge 是一个快速轻量的主题，使用语义化 HTML、轻量级的 abridge.css CSS 类和非必需的 JS。"
+generate_feeds = true
+build_search_index = false
+search.include_title = true # 在索引中包含页面/部分的标题
+search.include_description = true # 在索引中包含页面/部分的描述
+search.include_content = true # 在索引中包含页面/部分的渲染内容
+# search.truncate_content_length = 100 # 在第 n 个字符处截断。如果索引变得太大，可能会有用。
+taxonomies = [
+#    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
 [extra]
 ###############################################################################
 ### Layout & Format
