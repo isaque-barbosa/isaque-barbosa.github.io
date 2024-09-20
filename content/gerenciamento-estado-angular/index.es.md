@@ -5,7 +5,7 @@ date = 2024-09-15
 draft = false
 
 [taxonomies]
-tags = ["Redux", "NgRx", "RxJs", "Angular", "Signal"]
+tags = ["Technology", "Redux", "NgRx", "RxJs", "Angular", "Signal"]
 +++
 
 ## Introducción

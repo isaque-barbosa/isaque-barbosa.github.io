@@ -47,7 +47,7 @@ $icon-buymeacoffee: false !default;
 $icon-kofi: true !default;
 $icon-twitter: false !default;
 $icon-facebook: false !default;
-$icon-linkedin: false !default;
+$icon-linkedin: true !default;
 $icon-codeberg: false !default;
 $icon-gitlab: false !default;
 $icon-github: true !default;
@@ -65,6 +65,7 @@ $icon-youtube: true !default;
 $icon-peertube: false !default;
 $icon-researchgate: false !default;
 $icon-telegram: false !default;
+$icon-bluesky: true !default;
 
 $icon-x: true !default;// x symbol, used to close search results page.
 $icon-search: true !default;//search, spyglass search button in search box.
@@ -1380,6 +1381,7 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   @if $icon-x {             .x {              background-image: functions.icon(x,               $ic,3, "%23f00", "none") }}
   @if $icon-youtube {       .youtube {        background-image: functions.icon(youtube,         $ic,2, "none", "%23f00") }}
   @if $icon-telegram {      .telegram {       background-image: functions.icon(telegram,        $ic,0, "none", "%233ad") }}
+  @if $icon-bluesky {      .bluesky {       background-image: functions.icon(bluesky,        $ic,0, "none", "%233ad") }}
   .svg {
     width: 1.8rem;
     height: 1.8rem;

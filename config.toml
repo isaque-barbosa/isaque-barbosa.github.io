@@ -175,7 +175,7 @@ mail = "isaque_dornelas@hotmail.com"
 #discord = "your-discord" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
 #twitter = "your-user-name"
 #facebook = "your-user-name"
-#linkedin = "isaque-o-d-barbosa"
+linkedin = "isaque-o-d-barbosa"
 #gitlab = "your-user-name"
 github = "isaque-barbosa"
 #codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
@@ -192,6 +192,7 @@ youtube = "channel/isaquebarbosa-dev"
 #peertube = "https://peertube.example.com/@username"
 #researchgate = "your-profile-id"
 #telegram = "your-user-name"
+bluesky = "isaquebarbosa.dev"
 
 
 ###############################################################################
